@@ -4,7 +4,7 @@ set -e
 set -x
 
 export USER=`whoami`
-DOCKER_TESTING=true
+DOCKER_TESTING=false
 
 # First, install utilities that Nix needs to install itself
 opkg-install curl ca-certificates bash shadow-useradd
